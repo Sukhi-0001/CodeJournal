@@ -1,0 +1,3 @@
+[submodule "dsa_code/extern/googletest"]
+	path = dsa_code/extern/googletest
+	url = https://github.com/google/googletest.git

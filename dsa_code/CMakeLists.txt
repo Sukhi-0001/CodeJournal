@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.16)
+project(dsa_code)
+
+add_subdirectory(./extern/googletest)
+
+set(linked_list "linked_list_tests")
+add_executable(${linked_list} ./tests/linked_list_tests.cpp ./linked_list.cpp)
+target_include_directories(${linked_list} PUBLIC ./)
+target_include_directories(${linked_list} PUBLIC ./extern/googletest/googletest/include)
+target_link_libraries(${linked_list} gtest)
