@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/linked_list_tests.dir/tests/linked_list_tests.cpp.o CMakeFiles/linked_list_tests.dir/linked_list.cpp.o -o linked_list_tests 

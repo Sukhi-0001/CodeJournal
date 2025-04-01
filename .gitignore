@@ -1,2 +1,5 @@
 *.[ao]
-dsa_code/build/
+**/build/*
+compile_commands.json
+*.vscode
+*.cache

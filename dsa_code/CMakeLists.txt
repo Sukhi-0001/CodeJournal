@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.16)
 project(dsa_code)
 
 add_subdirectory(./extern/googletest)
-
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 set(linked_list "linked_list_tests")
 add_executable(${linked_list} ./tests/linked_list_tests.cpp ./linked_list.cpp)
 target_include_directories(${linked_list} PUBLIC ./)
