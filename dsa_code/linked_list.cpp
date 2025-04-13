@@ -47,6 +47,38 @@ void Linked_list::insert(int data,int pos){
   current->next=temp;
 }
 
+int Linked_list::get_legth(){
+  node* current=head;
+  int count=0;
+  while(current){
+    current=current->next;
+    count++;
+  }
+  return count;
+}
+
+int Linked_list::kth_node_from_end(int pos_from_back){
+  // 2pointers approch
+  node* kth_node=head,*front_node=head;
+  if(pos_from_back<1){
+    cout<<"out of bounds"<<endl;
+    return INT_MIN;
+  }
+
+  while(pos_from_back){
+    pos_from_back--;
+    if(!front_node){
+      cout<<"pos from back bigger than length"<<endl;
+      return INT_MIN;
+    }
+    front_node=front_node->next;
+  }
+  while(front_node){
+    front_node=front_node->next;
+    kth_node=kth_node->next;
+  }
+  return kth_node->data;
+}
 
 /*
 it returns node at pos
