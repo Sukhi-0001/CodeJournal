@@ -64,7 +64,7 @@ For each problem I solve, I follow a simple process:
 
 ## 📬 **Contact**
 
-If you want to connect or have any questions about the problems, feel free to reach out to me at [your-email@example.com].
+If you want to connect or have any questions about the problems, feel free to reach out to me at Sukhman.singh734@gmail.com.
 
 ---
 
