@@ -20,7 +20,7 @@ To view and follow along with my practice, clone this repository:
 ### **Clone the Repository**
 
 ```bash
-git clone https://github.com/yourusername/CodeJournal.git
+git clone https://github.com/Sukhi-0001/CodeJournal.git
 ```
 
 ### **Navigate to the Directory**
