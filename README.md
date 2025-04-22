@@ -1,7 +1,3 @@
-Got it! Since it's for your personal practice, here's an updated version of the **README.md** that's more focused on your personal journey and coding practice.
-
----
-
 # **CodeJournal**
 
 Welcome to **CodeJournal** — my personal coding journal. This repository is dedicated to solving competitive programming problems, mastering data structures and algorithms (DSA), and documenting my progress along the way.
