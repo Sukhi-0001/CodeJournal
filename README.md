@@ -57,8 +57,8 @@ For each problem I solve, I follow a simple process:
 
 ## 🔧 **Tech Stack**
 
-- **Languages**: Python, C++, Java (depending on the problem)
-- **Tools**: VS Code, PyCharm, Git for version control
+- **Languages**: C, C++ (depending on the problem)
+- **Tools**: VS Code, neovim, Git for version control
 
 ---
 
