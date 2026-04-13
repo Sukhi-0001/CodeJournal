@@ -3,3 +3,7 @@
 compile_commands.json
 *.vscode
 *.cache
+*.exe
+*.in*
+*.ans*
+*.out*
